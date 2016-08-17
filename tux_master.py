@@ -8,7 +8,7 @@ import tux_regexp, tux_database, tux_email
 import tux_oop, tux_rss, subprocess
 # Clear the screen
 subprocess.call('clear', shell=True)
-# Get the User Input:wq
+# Get the User Input
 tuxPay1 = tux_regexp.UserInput()
 title = tux_rss.getrssFeed(tuxPay1.rssFeed)
 emailAddress = tux_email.emailAddress(tuxPay1.emailAddress, tuxPay1.currentDate)
